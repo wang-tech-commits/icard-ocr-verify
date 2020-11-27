@@ -1,0 +1,28 @@
+{
+    "name": "wang-tech-commits/idcard-ocr-verify",
+    "description": "身份证OCR接口验证",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Mr.wang",
+            "email": "15124532157@163.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.1.3",
+        "laravel/framework": "*",
+        "godruoyi/ocr": "^2.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "MrwangTc\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "MrwangTc\\IdcardOcrVerify\\ServiceProvider"
+            ]
+        }
+    }
+}
